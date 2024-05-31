@@ -5,6 +5,7 @@ import Inicio from './components/Inicio'
 import  AboutPage from "./components/AboutPage";
 import ContactPage  from './components/ContactPage'
 import HomePage from './components/HomePage'
+import Form from './components/cargarDatos'
 
 function App() {
   //Constantes para desplegar menu
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Clientes' element={<AboutPage />}></Route>
         <Route path='/AjusteInventario' element={<ContactPage />}></Route>
         <Route path='/Categorias' element={<HomePage />}></Route>
+        <Route path='/form' element={<Form />}></Route>
       </Routes>
     </div>
   );
